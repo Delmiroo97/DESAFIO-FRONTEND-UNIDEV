@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* font-family: "Inter", sans-serif; */
+    font-family: "Inter", sans-serif;
 }
 
 html {
@@ -12,3 +12,193 @@ html {
 img {
     display: block;
 }
+
+.s-hero {
+    width: 100%;
+    /* height: 100%; */
+    background-color: var(--container-color);
+}
+
+.s-hero .container {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s-hero .container .header-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.6rem;
+    gap: 1rem;
+}
+
+.s-hero .container .header-container img {
+    width: 87px;
+    height: 87px;
+}
+
+ .header-text {
+    width: 100%;
+    max-width: 34.2rem;
+}
+
+.header-text h2 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: var(--paragrafo-color);
+    line-height: 100%;
+}
+
+.header-text p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--text-color);
+    line-height: 100%;
+    position: relative;
+    left: 7.4rem;
+}
+
+.text-slogan {
+    margin-top: 8.7rem;
+    margin-bottom: 4.8rem;
+}
+
+.text-slogan h3 {
+    width: 100%;
+    max-width: 57.9rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--text-color);
+    line-height: 100%;
+    text-align: center;
+}
+
+.text-slogan span {
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--paragrafo-color);
+    line-height: 100%;
+    text-align: center;
+
+}
+
+.cards {
+    width: 100%;
+    max-width: 113rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.card-01, .card-02, .card-03,
+.card-04, .card-05, .card-06 {
+    width: 30rem;
+    height: 29.6rem;
+    background-color: white;
+    margin-bottom: 4rem;
+    border-radius: 1.2rem 1.2rem 0 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card-img {
+    width: 30rem;
+    height: 20.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-info {
+    width: 30rem;
+    height: 9.2rem;
+    background-color: var(--bege-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.descripition h4 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 100%;
+    color: var(--paragrafo-color);
+}
+
+.descripition p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-color);
+    line-height: 100%;
+}
+
+.price {
+    display: flex;  
+}
+
+.price h6 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 100%;
+    color: var(--text-color);
+    position: relative;
+    top: 1.8rem;
+    right: 0.3rem;
+}
+
+.price strong {
+    font-size: 3.9rem;
+    font-weight: 800;
+    line-height: 100%;
+    color: var(--paragrafo-color);
+}
+
+.price span {
+    color: var(--paragrafo-color);
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 100%;
+}
+
+.reference {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--container-color);
+    padding-top: 1.2rem;
+    padding-bottom: 50rem;
+}
+
+.reference h2 {
+    max-width: 63rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--text-color);
+    letter-spacing: 100%;
+}
+
+.reference span {
+    color: var(--laranja-color);
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 100%;
+
+}
+
+.reference strong {
+    color: var(--paragrafo-color);
+    letter-spacing: 100%; 
+}
+
+
+
+
