@@ -1,0 +1,32 @@
+@media (max-width: 560px) {
+    .header-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text {
+        margin-top: 2rem;
+    }
+
+    .header-text h2 {
+        text-align: center;
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
+
+    .header-text p {
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
+
+    .text-slogan {
+        margin-top: 3.7rem;
+    }
+
+    .reference h2 {
+        max-width: 43rem;
+    }
+}
+
